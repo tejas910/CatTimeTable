@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>CAT Time-Table</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <style>
+        h2{ 
+             text-align: center;
+        }
+        .container{
+
+            display: flex;
+            text-align: center;
+
+        }
+        table{
+            letter-spacing: 0.1rem;
+        }
+        table thead{
+            background-color: black;
+            color: white;
+        }
+        footer
+        {
+            background-color: black;
+            color: white;
+            font-size: medium;
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 20px;
+            margin-top: 65px;
+            text-align: center;
+        }
+        @media only screen and (max-width:500px) {
+                table{
+                    width: 100%;
+                    font-size: 10px;
+                    font-weight: bold;
+                }
+                footer{
+                    width: 100%;
+                    
+                }
+                footer h2{
+                    font-size: 10px;
+                    
+                }
+}
+    </style>
+
+</head>
+<body>
+    <br><br>
+    <h2>CAT TIME TABLE</h2>
+      <br>
+    <div class="container">
+        <table class="table table-bordered">
+          <thead class="thead-dark">
+            <tr>
+                <th>Day</th>
+                <th>Morning (2 hours)</th>
+                <th>Afternoon (2 hours)</th>
+                <th>Evening (2 hours)</th>
+              </tr>
+          </thead>
+          <tbody>
+            <tr class="danger">
+                <td>Monday</td>
+                <td>VARC Practice: Reading Comprehension, Vocabulary building</td>
+                <td>DILR Practice: Data Interpretation, Logical Reasoning</td>
+                <td>Quant Practice: Basic Concepts, Formulas</td>
+              </tr>
+              <tr class="warning">
+                <td>Tuesday</td>
+                <td>VARC Practice: Parajumbles, Critical Reasoning</td>
+                <td>DILR Practice: Caselets, Data Sufficiency</td>
+                <td>Quant Practice: Number Systems, Arithmetic</td>
+              </tr>
+              <tr class="success">
+                <td>Wednesday</td>
+                <td>VARC Practice: Sentence Correction, Para Completion</td>
+                <td>DILR Practice: Seating Arrangement, Blood Relations</td>
+                <td>Quant Practice: Algebra, Geometry</td>
+              </tr>
+              <tr class="active">
+                <td>Thursday</td>
+                <td>VARC Practice: Passage Summary, Grammar</td>
+                <td>DILR Practice: Venn Diagrams, Logical Connectives</td>
+                <td>Quant Practice: Percentages, Ratio & Proportion</td>
+              </tr>
+              <tr class="warning">
+                <td>Friday</td>
+                <td>VARC Practice: Inference, Analogies</td>
+                <td>DILR Practice: Puzzles, Input-Output</td>
+                <td>Quant Practice: Time, Speed & Distance, Time & Work</td>
+              </tr>
+              <tr class="info">
+                <td>Saturday</td>
+                <td>Full-length VARC Mock Test</td>
+                <td>Full-length DILR Mock Test</td>
+                <td>Full-length Quant Mock Test</td>
+              </tr>
+              <tr class="danger">
+                <td>Sunday</td>
+                <td>Review VARC Mock Test, Analyze Weak Areas</td>
+                <td>Review DILR Mock Test, Analyze Weak Areas</td>
+                <td>Review Quant Mock Test, Analyze Weak Areas</td>
+              </tr>
+          </tbody>
+        </table>
+      </div>
+      
+
+      <footer class="footer">
+            <h3>Created BY @Tejas Patil and Verified by @Dipesh Toke</h3>
+      </footer>
+</body>
+</html>
